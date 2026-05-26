@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+pandas
+numpy
+scipy
+pandas_ta
+dhanhq
+pyyaml
+python-dotenv
+sqlalchemy
+psycopg2-binary
+redis
+celery
+pydantic
