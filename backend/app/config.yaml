@@ -1,0 +1,20 @@
+app:
+  mode: paper
+  poll_interval_seconds: 5
+
+dhan:
+  client_id: "${DHAN_CLIENT_ID}"
+  access_token: "${DHAN_ACCESS_TOKEN}"
+  underlying_scrip: 1
+  underlying_segment: "IDX_I"
+  option_segment: "BSE_FNO"
+
+risk:
+  capital: 500000
+  max_risk_per_trade_pct: 1.0
+  max_daily_loss_pct: 3.0
+  max_open_trades: 2
+
+strategy:
+  min_regime_score: 60
+  target_rr: 1.8
